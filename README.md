@@ -1,5 +1,9 @@
 ## Lead Scoring Model for X Education
 
+Used Autogluon to predict Lead Conversion. The output is both a binary conversion (0 or 1) or a probability to convert that goes from 0 to 1, which represents the probabilty for class 1, being more susceptible to real world use cases.
+
+![image](images/conversion%20prob.png)
+
 ## Context
 
 X Education, an online education company, aims to predict which potential customers (leads) are most likely to purchase their courses. This project uses a dataset from Kaggle ([https://www.kaggle.com/datasets/amritachatterjee09/lead-scoring-dataset](https://www.kaggle.com/datasets/amritachatterjee09/lead-scoring-dataset)) to build a predictive model.
