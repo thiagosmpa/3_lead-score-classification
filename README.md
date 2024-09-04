@@ -2,7 +2,10 @@
 
 Used Autogluon to predict Lead Conversion. The output is both a binary conversion (0 or 1) or a probability to convert that goes from 0 to 1, which represents the probabilty for class 1, being more susceptible to real world use cases.
 
+Used data exploration to creating a new feature "Distance from India" which helped to achieved 95% of accuracy on a dataset of 9000+ inputs.
+
 ![image](images/conversion%20prob.png)
+![image9](images/accuracy.png)
 
 ## Context
 
