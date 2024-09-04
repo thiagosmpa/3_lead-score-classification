@@ -11,11 +11,19 @@ X Education, an online education company, aims to predict which potential custom
    - A new numerical feature, `Distance from India`, was created using latitude and longitude data from the `CountryInfo` and `GeoPy` libraries.
    - Contingency matrices and Cramer's V were used to assess the relationship between categorical features and the target variable (`Converted`).
 
+![image1](images/categoricos.png)
+![image2](images/cramer.png)
+
 2. ## Numerical Data:
    - Boxplots were used to visualize the distribution of numerical features and identify potential outliers.
 
+![image3](images/botplot.png)
+![image4](images/numerical_description.png)
+
 3. ## Correlation:
    - Cramer's V values for categorical features and Pearson correlation coefficients for numerical features were combined to create a comprehensive correlation matrix.
+
+![image5](images/correlacao.png)
 
 ## Model Building and Prediction
 
@@ -28,10 +36,16 @@ X Education, an online education company, aims to predict which potential custom
 - Feature Importance: The new `Distance from India` feature, while having a minor impact on overall accuracy, was ranked 8th in importance.
 - Practical Application: A `Conversion Prob` column was added to provide the probability of conversion for each lead, enhancing the model's real-world usability.
 
+![image6](images/feature%20importance%202.png)
+![image7](images/feature%20importance.png)
+
 ## Key Metrics:
 
 * Accuracy: 95%
 * Other relevant metrics (precision, recall, F1-score, etc.) can be included here based on your model's output.
+
+![image8](images/confusion%20matrix.png)
+![image9](images/accuracy.png)
 
 ## Images
 
