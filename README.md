@@ -52,8 +52,8 @@ X Education, an online education company, aims to predict which potential custom
 * Accuracy: 95%
 * Other relevant metrics (precision, recall, F1-score, etc.) can be included here based on your model's output.
 
-![image8](images/confusion%20matrix.png)
-![image9](images/accuracy.png)
+<img src="images/confusion matrix.png" alt="Figure 8" width="400">
+<img src="images/accuracy.png" alt="Figure 9" width="400">
 
 ## Images
 
